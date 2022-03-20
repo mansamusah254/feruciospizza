@@ -52,7 +52,15 @@ h3{
 }
 .order{
     text-align: center;
+    color: aliceblue;
 }
 .text-center{
     font-size: 30px;
+}
+.pizza-img{
+    max-width: 20vh;
+    position:absolute;
+    left:100px;
+    top:1170px;
+    z-index:-1;
 }
