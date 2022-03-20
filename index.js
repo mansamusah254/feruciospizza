@@ -32,6 +32,11 @@ $(document).ready(function(){
         this.newQuantity = quantity;
     }
 
-
-
+    var totalCost =
+    (userInput.newSize +
+      userInput.newCrust +
+      userInput.newTopping +
+      userInput.newFlavor) *
+    userInput.newQuantity;
+    
 })
