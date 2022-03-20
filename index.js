@@ -23,6 +23,15 @@ $(document).ready(function(){
       return parseInt(pizzaNumber);
     }
 
-    
+    // element referral
+    function Order(flavor, size, crust, topping, quantity) {
+        this.newFlavor = flavor;
+        this.newSize = size;
+        this.newCrust = crust;
+        this.newTopping = topping;
+        this.newQuantity = quantity;
+    }
+
+
 
 })
