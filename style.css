@@ -52,5 +52,7 @@ h3{
 }
 .order{
     text-align: center;
-    margin-left: 200px;
+}
+.text-center{
+    font-size: 30px;
 }
