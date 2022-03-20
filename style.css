@@ -52,21 +52,18 @@ h3{
 }
 .order{
     text-align: center;
-    color: aliceblue;
+    color: rgb(0, 0, 0);
 }
 .text-center{
     font-size: 30px;
 }
 .pizza-img{
-    max-width: 1300px;
-    max-height: 1300px;
-    position:absolute;
-    left:130px;
-    top:1170px;
-    z-index:-1;
+ display: flex;
+ max-width: 200px;
+ margin-left: 150px;
 }
 label{
-    color: aliceblue;
+    color: rgb(0, 0, 0);
 }
 #contacts{
     text-align: center;
@@ -75,9 +72,3 @@ label{
 #contacts h2{
     font-size: 50px;
 }
-/* #flavour
-#crust
-#topping
-#size{
-
-} */
