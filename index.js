@@ -23,7 +23,7 @@ $(document).ready(function() {
           return parseInt(pizzaNumber);
         }
     
-        //a constructor to create objects/instances of a user's orders
+        //constructor to create objects of a user's orders
         function Order(flavor, size, crust, topping, quantity) {
           this.newFlavor = flavor;
           this.newSize = size;
@@ -32,7 +32,6 @@ $(document).ready(function() {
           this.newQuantity = quantity;
         }
     
-        //an object/instance (of the above constructor) to save the users order
         var userInput = new Order(flavor(), size(), crust(), topping(), number());
     
         //a variable to store the total expenditure of the user
@@ -52,6 +51,7 @@ $(document).ready(function() {
     
         //a method to reset the form after all operations have been completed
         $("#text-center").reset();
+        //which doesnt work
     
         event.preventDefault();
       });
