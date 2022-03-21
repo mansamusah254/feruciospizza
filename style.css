@@ -73,7 +73,7 @@ label{
 #contacts h2{
     font-size: 50px;
 }
-select, #quantity{
+select, #btn{
     width: 30%;
     background-color: rgb(0, 238, 255);
 
